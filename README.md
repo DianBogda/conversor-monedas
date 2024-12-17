@@ -2,10 +2,10 @@
 Proyecto para practicar programación orientada a objetos a través de una API, en lenguaje Java.
 
 ## Índice
-*[Entorno Java](#entorno-java)
-*[Descripción del proyecto](#descripción-del-proyecto)
-*[Demo](#demo)
-*[A Mejorar](#a-mejorar)
+**[Entorno Java](#entorno-java)
+**[Descripción del proyecto](#descripción-del-proyecto)
+**[Demo](#demo)
+**[A Mejorar](#a-mejorar)
 
 ## Entorno Java
 - Java JDK: versión 11 en adelante
@@ -23,7 +23,7 @@ Proyecto para practicar programación orientada a objetos a través de una API, 
 - Se ejecuta el método main para ejecutar el programa.
 
 ## Demo
-Ver como funciona ahora el mini proyecto en una pequeña demo => 
+Ver como funciona ahora el mini proyecto en una pequeña demo => https://drive.google.com/file/d/1lUx3ZaDWe83Wlq34DbgNOXxzUWFvjtz5/view?usp=drive_link
 
 ## A Mejorar
 - Problema 1 : a pesar que el ciclo termina con la opción de salir elegida por el usuario, sigue mostrando la línea de elegir el monto.
