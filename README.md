@@ -2,10 +2,10 @@
 Proyecto para practicar programación orientada a objetos a través de una API, en lenguaje Java.
 
 ## Índice
-**[Entorno Java](#entorno-java)
-**[Descripción del proyecto](#descripción-del-proyecto)
-**[Demo](#demo)
-**[A Mejorar](#a-mejorar)
+- [Entorno Java](#entorno-java)
+- [Descripción del proyecto](#descripción-del-proyecto)
+- [Demo](#demo)
+- [A Mejorar](#a-mejorar)
 
 ## Entorno Java
 - Java JDK: versión 11 en adelante
