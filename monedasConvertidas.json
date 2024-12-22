@@ -1,0 +1,20 @@
+[
+  {
+    "codigoMonedaBase": "GBP",
+    "valorDeMoneda": 1.2055,
+    "codigoMonedaNueva": "EUR",
+    "montoConvertido": 1189.8285
+  },
+  {
+    "codigoMonedaBase": "CAD",
+    "valorDeMoneda": 0.6959,
+    "codigoMonedaNueva": "USD",
+    "montoConvertido": 23.6606
+  },
+  {
+    "codigoMonedaBase": "GBP",
+    "valorDeMoneda": 1.2557,
+    "codigoMonedaNueva": "USD",
+    "montoConvertido": 1099.9932
+  }
+]

@@ -52,6 +52,7 @@ public class ControladorDeMonedas {
         String mensaje = "Ingrese el valor que desea convertir: ";
         int numOpcion = 0;
         double montoAConvertir;
+        List<Moneda> monedasObtenidas = new ArrayList<>();
 
         while (numOpcion != 23) {
             System.out.println(menu);
@@ -61,70 +62,92 @@ public class ControladorDeMonedas {
 
             switch (numOpcion) {
                 case 1:
-                    obtenerConversion("USD", "ARS", montoAConvertir);
+                    List<Moneda> monedaObtenida1 = obtenerConversion("USD", "ARS", montoAConvertir);
+                    monedasObtenidas.addAll(monedaObtenida1);
                     break;
                 case 2:
-                    obtenerConversion("ARS", "USD", montoAConvertir);
+                    List<Moneda> monedaObtenida2 = obtenerConversion("ARS", "USD", montoAConvertir);
+                    monedasObtenidas.addAll(monedaObtenida2);
                     break;
                 case 3:
-                    obtenerConversion("USD", "BRL", montoAConvertir);
+                    List<Moneda> monedaObtenida3 = obtenerConversion("USD", "BRL", montoAConvertir);
+                    monedasObtenidas.addAll(monedaObtenida3);
                     break;
                 case 4:
-                    obtenerConversion("BRL", "USD", montoAConvertir);
+                    List<Moneda> monedaObtenida4 = obtenerConversion("BRL", "USD", montoAConvertir);
+                    monedasObtenidas.addAll(monedaObtenida4);
                     break;
                 case 5:
-                    obtenerConversion("USD", "CAD", montoAConvertir);
+                    List<Moneda> monedaObtenida5 = obtenerConversion("USD", "CAD", montoAConvertir);
+                    monedasObtenidas.addAll(monedaObtenida5);
                     break;
                 case 6:
-                    obtenerConversion("CAD", "USD", montoAConvertir);
+                    List<Moneda> monedaObtenida6 = obtenerConversion("CAD", "USD", montoAConvertir);
+                    monedasObtenidas.addAll(monedaObtenida6);
                     break;
                 case 7:
-                    obtenerConversion("USD", "CLP", montoAConvertir);
+                    List<Moneda> monedaObtenida7 = obtenerConversion("USD", "CLP", montoAConvertir);
+                    monedasObtenidas.addAll(monedaObtenida7);
                     break;
                 case 8:
-                    obtenerConversion("CLP", "USD", montoAConvertir);
+                    List<Moneda> monedaObtenida8 = obtenerConversion("CLP", "USD", montoAConvertir);
+                    monedasObtenidas.addAll(monedaObtenida8);
                     break;
                 case 9:
-                    obtenerConversion("USD", "COP", montoAConvertir);
+                    List<Moneda> monedaObtenida9 = obtenerConversion("USD", "COP", montoAConvertir);
+                    monedasObtenidas.addAll(monedaObtenida9);
                     break;
                 case 10:
-                    obtenerConversion("COP", "USD", montoAConvertir);
+                    List<Moneda> monedaObtenida10 = obtenerConversion("COP", "USD", montoAConvertir);
+                    monedasObtenidas.addAll(monedaObtenida10);
                     break;
                 case 11:
-                    obtenerConversion("USD", "MXN", montoAConvertir);
+                    List<Moneda> monedaObtenida11 = obtenerConversion("USD", "MXN", montoAConvertir);
+                    monedasObtenidas.addAll(monedaObtenida11);
                     break;
                 case 12:
-                    obtenerConversion("MXN", "USD", montoAConvertir);
+                    List<Moneda> monedaObtenida12 = obtenerConversion("MXN", "USD", montoAConvertir);
+                    monedasObtenidas.addAll(monedaObtenida12);
                     break;
                 case 13:
-                    obtenerConversion("USD", "EUR", montoAConvertir);
+                    List<Moneda> monedaObtenida13 = obtenerConversion("USD", "EUR", montoAConvertir);
+                    monedasObtenidas.addAll(monedaObtenida13);
                     break;
                 case 14:
-                    obtenerConversion("EUR", "USD", montoAConvertir);
+                    List<Moneda> monedaObtenida14 = obtenerConversion("EUR", "USD", montoAConvertir);
+                    monedasObtenidas.addAll(monedaObtenida14);
                     break;
                 case 15:
-                    obtenerConversion("USD", "GBP", montoAConvertir);
+                    List<Moneda> monedaObtenida15 = obtenerConversion("USD", "GBP", montoAConvertir);
+                    monedasObtenidas.addAll(monedaObtenida15);
                     break;
                 case 16:
-                    obtenerConversion("GBP", "USD", montoAConvertir);
+                    List<Moneda> monedaObtenida16 = obtenerConversion("GBP", "USD", montoAConvertir);
+                    monedasObtenidas.addAll(monedaObtenida16);
                     break;
                 case 17:
-                    obtenerConversion("USD", "GBP", montoAConvertir);
+                    List<Moneda> monedaObtenida17 = obtenerConversion("USD", "GBP", montoAConvertir);
+                    monedasObtenidas.addAll(monedaObtenida17);
                     break;
                 case 18:
-                    obtenerConversion("GBP", "USD", montoAConvertir);
+                    List<Moneda> monedaObtenida18 = obtenerConversion("GBP", "USD", montoAConvertir);
+                    monedasObtenidas.addAll(monedaObtenida18);
                     break;
                 case 19:
-                    obtenerConversion("CAD", "EUR", montoAConvertir);
+                    List<Moneda> monedaObtenida19 = obtenerConversion("CAD", "EUR", montoAConvertir);
+                    monedasObtenidas.addAll(monedaObtenida19);
                     break;
                 case 20:
-                    obtenerConversion("EUR", "CAD", montoAConvertir);
+                    List<Moneda> monedaObtenida20 = obtenerConversion("EUR", "CAD", montoAConvertir);
+                    monedasObtenidas.addAll(monedaObtenida20);
                     break;
                 case 21:
-                    obtenerConversion("GBP", "EUR", montoAConvertir);
+                    List<Moneda> monedaObtenida21 = obtenerConversion("GBP", "EUR", montoAConvertir);
+                    monedasObtenidas.addAll(monedaObtenida21);
                     break;
                 case 22:
-                    obtenerConversion("EUR", "GBP", montoAConvertir);
+                    List<Moneda> monedaObtenida22 = obtenerConversion("EUR", "GBP", montoAConvertir);
+                    monedasObtenidas.addAll(monedaObtenida22);
                     break;
                 case 23:
                     teclado.close();
@@ -134,16 +157,14 @@ public class ControladorDeMonedas {
                     System.out.println("La opción ingresada no es válida. Por favor ingrese nuevamente la opción deseada." + "\n");
             }
         }
+        //System.out.println(monedasObtenidas);
+        guardadorMonedas.guardarMonedas(monedasObtenidas);
+        System.out.println("Lista de monedas guardadas en 'monedasConvertidas.json'");
     }
 
     private List<Moneda> obtenerConversion(String monedaBase, String monedaNueva, double montoAConvertir) {
-        List<Moneda> monedas = new ArrayList<>();
         List<Moneda> listaMonedas = buscadorMonedas.buscarMonedas(monedaBase, monedaNueva, montoAConvertir);
-        monedas.addAll(listaMonedas);
         //System.out.println("Lista de monedas: " + listaMonedas);
-
-        guardadorMonedas.guardarMonedas(listaMonedas);
-        //System.out.println("Lista de monedas guardadas en 'monedasConvertidas.json'");
-        return monedas;
+        return listaMonedas;
     }
 }
