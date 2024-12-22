@@ -1,38 +1,44 @@
 [
   {
-    "codigoMonedaBase": "USD",
-    "valorDeMoneda": 1025.42,
-    "codigoMonedaNueva": "ARS",
-    "montoConvertido": 433752.66
+    "codigoMonedaBase": "ARS",
+    "valorDeMoneda": 9.7521E-4,
+    "codigoMonedaNueva": "USD",
+    "montoConvertido": 0.04193403
   },
   {
-    "codigoMonedaBase": "BRL",
-    "valorDeMoneda": 0.1635,
-    "codigoMonedaNueva": "USD",
-    "montoConvertido": 38.4225
+    "codigoMonedaBase": "USD",
+    "valorDeMoneda": 1.4369,
+    "codigoMonedaNueva": "CAD",
+    "montoConvertido": 655.2264
   },
   {
     "codigoMonedaBase": "CLP",
     "valorDeMoneda": 0.001008,
     "codigoMonedaNueva": "USD",
-    "montoConvertido": 24.730272
+    "montoConvertido": 0.659232
   },
   {
     "codigoMonedaBase": "USD",
     "valorDeMoneda": 20.1434,
     "codigoMonedaNueva": "MXN",
-    "montoConvertido": 4733.699
+    "montoConvertido": 131798.2662
   },
   {
-    "codigoMonedaBase": "CAD",
-    "valorDeMoneda": 0.5542,
+    "codigoMonedaBase": "USD",
+    "valorDeMoneda": 0.7964,
     "codigoMonedaNueva": "GBP",
-    "montoConvertido": 253.2694
+    "montoConvertido": 697.6464
+  },
+  {
+    "codigoMonedaBase": "GBP",
+    "valorDeMoneda": 1.8051,
+    "codigoMonedaNueva": "CAD",
+    "montoConvertido": 1380.9015
   },
   {
     "codigoMonedaBase": "GBP",
     "valorDeMoneda": 1.2055,
     "codigoMonedaNueva": "EUR",
-    "montoConvertido": 4177.0575
+    "montoConvertido": 788.397
   }
 ]
