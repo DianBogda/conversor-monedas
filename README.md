@@ -24,7 +24,7 @@ Proyecto para practicar programación orientada a objetos a través de una API, 
 - Se obtiene un archivo json con el listado de las monedas convertidas, al finalizar el programa.
 
 ## Demo
-Ver como funciona ahora el mini proyecto en una pequeña demo => https://drive.google.com/file/d/1lUx3ZaDWe83Wlq34DbgNOXxzUWFvjtz5/view?usp=drive_link
+Ver como funciona ahora el mini proyecto en una pequeña demo => [https://drive.google.com/file/d/1lUx3ZaDWe83Wlq34DbgNOXxzUWFvjtz5/view?usp=drive_link](https://drive.google.com/file/d/1hi0ZH2LX436LzhhVFQHn_APYQ10lWUTb/view?usp=sharing)
 
 ## A Mejorar
 - Problema 1 : A pesar que el ciclo termina con la opción de salir elegida por el usuario, sigue mostrando la línea de elegir el monto.
