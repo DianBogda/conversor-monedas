@@ -1,6 +1,6 @@
 # conversor-monedas
-Proyecto para practicar programación orientada a objetos a través de una API, en lenguaje Java.
-El código del proyecto se encuentra en el branch master.
+- Proyecto para practicar programación orientada a objetos a través de una API, en lenguaje Java.
+- El código del proyecto se encuentra en el branch master.
 
 ## Índice
 - [Entorno Java](#entorno-java)
