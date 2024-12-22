@@ -19,7 +19,7 @@ public class GuardadorDeMonedas {
         } catch (IOException e) {
             e.getStackTrace();
         } finally {
-            System.out.println("Monedas guardadas en 'monedasConvertidas.json'" + "\n");
+            System.out.println("Lista de monedas convertidas guardada en 'monedasConvertidas.json'.");
             //System.out.println("La ejecución del programa ha finalizado.");
         }
     }

@@ -126,11 +126,11 @@ public class ControladorDeMonedas {
                     monedasObtenidas.addAll(monedaObtenida16);
                     break;
                 case 17:
-                    List<Moneda> monedaObtenida17 = obtenerConversion("USD", "GBP", montoAConvertir);
+                    List<Moneda> monedaObtenida17 = obtenerConversion("CAD", "GBP", montoAConvertir);
                     monedasObtenidas.addAll(monedaObtenida17);
                     break;
                 case 18:
-                    List<Moneda> monedaObtenida18 = obtenerConversion("GBP", "USD", montoAConvertir);
+                    List<Moneda> monedaObtenida18 = obtenerConversion("GBP", "CAD", montoAConvertir);
                     monedasObtenidas.addAll(monedaObtenida18);
                     break;
                 case 19:
@@ -159,7 +159,7 @@ public class ControladorDeMonedas {
         }
         //System.out.println(monedasObtenidas);
         guardadorMonedas.guardarMonedas(monedasObtenidas);
-        System.out.println("Lista de monedas guardadas en 'monedasConvertidas.json'");
+        //System.out.println("Lista de monedas guardadas en 'monedasConvertidas.json'.");
     }
 
     private List<Moneda> obtenerConversion(String monedaBase, String monedaNueva, double montoAConvertir) {
