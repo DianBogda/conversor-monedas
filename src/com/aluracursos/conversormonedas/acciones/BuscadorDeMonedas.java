@@ -25,7 +25,6 @@ public class BuscadorDeMonedas {
         String direccionURL = "https://v6.exchangerate-api.com/v6/" + api_key + "/pair/" + codigoMonedaBase + "/" +
                               codigoNuevaMoneda + "/" + montoAConvertir;
 
-
         LocalDateTime fecha_hora_local = LocalDateTime.now();
         String formato_fecha_hora  = fecha_hora_local
                 .format(DateTimeFormatter.ofLocalizedDateTime(FormatStyle.SHORT)
