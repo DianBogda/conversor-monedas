@@ -9,12 +9,8 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
-import java.time.format.FormatStyle;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Locale;
 
 public class BuscadorDeMonedas {
     public List<Moneda> buscarMonedas(String codigoMonedaBase, String codigoNuevaMoneda, double montoAConvertir) {
@@ -24,11 +20,6 @@ public class BuscadorDeMonedas {
         String api_key = "254874dacb01081a3d604222";
         String direccionURL = "https://v6.exchangerate-api.com/v6/" + api_key + "/pair/" + codigoMonedaBase + "/" +
                               codigoNuevaMoneda + "/" + montoAConvertir;
-
-        LocalDateTime fecha_hora_local = LocalDateTime.now();
-        String formato_fecha_hora  = fecha_hora_local
-                .format(DateTimeFormatter.ofLocalizedDateTime(FormatStyle.SHORT)
-                        .withLocale(Locale.CANADA));
 
         try {
             URL url = new URL(direccionURL);
@@ -45,6 +36,7 @@ public class BuscadorDeMonedas {
             String moneda_nueva = jsonobj.get("target_code").getAsString();
             double valor_de_conversion = jsonobj.get("conversion_rate").getAsDouble();
             double valor_convertido = jsonobj.get("conversion_result").getAsDouble();
+            String fecha_de_conversion = jsonobj.get("time_last_update_utc").getAsString();
             //System.out.println("Valor de conversión: $" + valor_de_conversion + ", de '" + moneda_base + "' a '" + moneda_nueva + "'");
 
             MonedaAPI miMonedaAPI = gson.fromJson(jsonobj, MonedaAPI.class);
@@ -54,7 +46,8 @@ public class BuscadorDeMonedas {
             //System.out.println("Mi moneda equivale a: " + miMoneda);
             monedas.add(miMoneda);
 
-            System.out.println(formato_fecha_hora);
+            //Imprime la fecha desde la clase Moneda
+            System.out.println(miMoneda.obtenerFechaConversion());
             System.out.println(
                     "El valor $" + montoAConvertir + " [" + moneda_base + "] corresponde al valor final de =>>> $" +
                             valor_convertido + " [" + moneda_nueva + "]" + "\n"
