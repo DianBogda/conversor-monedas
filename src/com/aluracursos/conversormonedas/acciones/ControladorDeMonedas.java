@@ -57,8 +57,11 @@ public class ControladorDeMonedas {
         while (numOpcion != 23) {
             System.out.println(menu);
             numOpcion = teclado.nextInt();
+            teclado.nextLine(); //Se agrega para que consuma el caracter de nueva línea.
+
             System.out.println(mensaje);
             montoAConvertir = teclado.nextDouble();
+            teclado.nextLine(); //Se agrega para que consuma el caracter de nueva línea.
 
             switch (numOpcion) {
                 case 1:
