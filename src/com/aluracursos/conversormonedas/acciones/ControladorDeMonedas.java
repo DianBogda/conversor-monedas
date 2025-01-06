@@ -51,7 +51,7 @@ public class ControladorDeMonedas {
                 """;
         String mensaje = "Ingrese el valor que desea convertir: ";
         int numOpcion = 0;
-        double montoAConvertir = 0;
+        double montoAConvertir;
         List<Moneda> monedasObtenidas = new ArrayList<>();
 
         while (numOpcion != 23) {
