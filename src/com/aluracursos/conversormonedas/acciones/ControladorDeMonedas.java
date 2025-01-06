@@ -51,7 +51,7 @@ public class ControladorDeMonedas {
                 """;
         String mensaje = "Ingrese el valor que desea convertir: ";
         int numOpcion = 0;
-        double montoAConvertir;
+        double montoAConvertir = 0;
         List<Moneda> monedasObtenidas = new ArrayList<>();
 
         while (numOpcion != 23) {
@@ -61,7 +61,7 @@ public class ControladorDeMonedas {
 
             System.out.println(mensaje);
             montoAConvertir = teclado.nextDouble();
-            teclado.nextLine(); //Se agrega para que consuma el caracter de nueva línea.
+            teclado.nextLine(); //Se agrega para que consuma el caracter de nueva línea
 
             switch (numOpcion) {
                 case 1:
