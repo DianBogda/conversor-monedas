@@ -27,5 +27,4 @@ Proyecto para practicar programación orientada a objetos a través de una API, 
 Ver como funciona ahora el mini proyecto en una pequeña demo => https://drive.google.com/file/d/1711dHdvx1rTDAht1lHL2Ta_h1LV_aTEf/view?usp=sharing
 
 ## A Mejorar
-- Problema 1 : A pesar que el ciclo termina con la opción de salir elegida por el usuario, sigue mostrando la línea de elegir el monto.
-- Problema 2 : Se logra imprimir el archivo json con los valores de todas las monedas convertidas, con la fecha y hora respectivamente; no se si eso es considerado y suficiente para ser un historial de conversión.
+- Problema 1 : Se logra imprimir el archivo json con los valores de todas las monedas convertidas, con la fecha y hora respectivamente; no se si eso es considerado y suficiente para ser un historial de conversión.
