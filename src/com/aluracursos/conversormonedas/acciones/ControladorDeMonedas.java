@@ -50,18 +50,20 @@ public class ControladorDeMonedas {
                 **********************************************
                 """;
         String mensaje = "Ingrese el valor que desea convertir: ";
-        int numOpcion = 0;
-        double montoAConvertir;
+        int numOpcion = -1;
+        double montoAConvertir = 0;
         List<Moneda> monedasObtenidas = new ArrayList<>();
 
-        while (numOpcion != 23) {
+        while (numOpcion != 0) {
             System.out.println(menu);
             numOpcion = teclado.nextInt();
             teclado.nextLine(); //Se agrega para que consuma el caracter de nueva línea.
 
-            System.out.println(mensaje);
-            montoAConvertir = teclado.nextDouble();
-            teclado.nextLine(); //Se agrega para que consuma el caracter de nueva línea
+            if (numOpcion != 23) {
+                System.out.println(mensaje);
+                montoAConvertir = teclado.nextDouble();
+                teclado.nextLine(); //Se agrega para que consuma el caracter de nueva línea
+            }
 
             switch (numOpcion) {
                 case 1:
@@ -153,11 +155,12 @@ public class ControladorDeMonedas {
                     monedasObtenidas.addAll(monedaObtenida22);
                     break;
                 case 23:
-                    teclado.close();
                     System.out.println("Conversor de Monedas finalizado. Gracias por utilizar nuestro programa.");
+                    numOpcion = 0;
+                    teclado.close();
                     break;
                 default:
-                    System.out.println("La opción ingresada no es válida. Por favor ingrese nuevamente la opción deseada." + "\n");
+                    System.out.println("La opción ingresada no es válida. Por favor ingrese nuevamente la opción deseada.\n");
             }
         }
         //System.out.println(monedasObtenidas);

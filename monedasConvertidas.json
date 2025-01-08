@@ -1,30 +1,37 @@
 [
   {
-    "fechaConversion": "2024-12-27, 5:01 p.m.",
+    "fechaConversion": "2025-01-08, 9:50 a.m.",
     "codigoMonedaBase": "USD",
-    "valorDeMoneda": 6.181,
-    "codigoMonedaNueva": "BRL",
-    "montoConvertido": 2670.192
+    "valorDeMoneda": 1036.25,
+    "codigoMonedaNueva": "ARS",
+    "montoConvertido": 127458.75
   },
   {
-    "fechaConversion": "2024-12-27, 5:01 p.m.",
+    "fechaConversion": "2025-01-08, 9:50 a.m.",
     "codigoMonedaBase": "USD",
-    "valorDeMoneda": 990.0295,
-    "codigoMonedaNueva": "CLP",
-    "montoConvertido": 975179.0575
+    "valorDeMoneda": 1.4346,
+    "codigoMonedaNueva": "CAD",
+    "montoConvertido": 813.4182
   },
   {
-    "fechaConversion": "2024-12-27, 5:02 p.m.",
-    "codigoMonedaBase": "USD",
-    "valorDeMoneda": 20.216,
-    "codigoMonedaNueva": "MXN",
-    "montoConvertido": 177173.024
+    "fechaConversion": "2025-01-08, 9:51 a.m.",
+    "codigoMonedaBase": "COP",
+    "valorDeMoneda": 2.2991E-4,
+    "codigoMonedaNueva": "USD",
+    "montoConvertido": 0.23519793
   },
   {
-    "fechaConversion": "2024-12-27, 5:02 p.m.",
-    "codigoMonedaBase": "GBP",
-    "valorDeMoneda": 1.2026,
-    "codigoMonedaNueva": "EUR",
-    "montoConvertido": 920375.0346
+    "fechaConversion": "2025-01-08, 9:51 a.m.",
+    "codigoMonedaBase": "USD",
+    "valorDeMoneda": 0.8001,
+    "codigoMonedaNueva": "GBP",
+    "montoConvertido": 12543.9678
+  },
+  {
+    "fechaConversion": "2025-01-08, 9:51 a.m.",
+    "codigoMonedaBase": "EUR",
+    "valorDeMoneda": 1.4871,
+    "codigoMonedaNueva": "CAD",
+    "montoConvertido": 3119.9358
   }
 ]
